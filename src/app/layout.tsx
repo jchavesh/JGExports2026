@@ -52,9 +52,9 @@ export const metadata: Metadata = {
     creator: "@jchavesh",
   },
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/JGExportsLogo_white.png",
+    shortcut: "/JGExportsLogo_white.png",
+    apple: "/JGExportsLogo_white.png",
   },
   alternates: {
     canonical: '/',
