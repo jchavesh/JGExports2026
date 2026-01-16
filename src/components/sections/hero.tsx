@@ -14,7 +14,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section id="home" className="relative h-screen w-full flex items-center justify-center text-center p-0 overflow-hidden">
+    <section id="home" className="relative h-screen w-full flex items-center justify-center text-center p-0 overflow-hidden border-0">
       <div
         className="absolute inset-0 w-full h-full"
         style={{ transform: `translateY(${offsetY * 0.4}px)` }}
