@@ -25,7 +25,8 @@ export function Products() {
               t.products.coffeeItem2
           ],
           imageSrc: "/coffeeBeens.jpg",
-          imageHint: "coffee beans"
+          imageHint: "coffee beans",
+          alt: "High-quality green coffee beans from Costa Rica ready for export."
       },
       {
           title: t.products.cacao,
@@ -34,7 +35,8 @@ export function Products() {
               t.products.cacaoItem2
           ],
           imageSrc: "/cacaoBens.jpg",
-          imageHint: "cacao beans"
+          imageHint: "cacao beans",
+          alt: "Dried Trinitario and hybrid cacao beans for international markets."
       },
       {
           title: t.products.ornamental,
@@ -43,7 +45,8 @@ export function Products() {
               t.products.ornamentalItem2
           ],
           imageSrc: "/ornamentalPlants.jpg",
-          imageHint: "ornamental plants"
+          imageHint: "ornamental plants",
+          alt: "Bougainvillea and Heliconia ornamental plants from Costa Rica."
       },
       {
           title: t.products.other,
@@ -52,7 +55,8 @@ export function Products() {
               t.products.otherItem2
           ],
           imageSrc: "/otherPlants.jpg",
-          imageHint: "other products"
+          imageHint: "other products",
+          alt: "Various organic and non-organic agricultural products from Costa Rica."
       }
   ];
 
@@ -84,7 +88,7 @@ export function Products() {
                                         <div className="aspect-[4/3] relative">
                                             <Image
                                                 src={category.imageSrc}
-                                                alt={category.title}
+                                                alt={category.alt}
                                                 fill
                                                 className="object-cover"
                                                 sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
