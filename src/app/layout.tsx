@@ -53,6 +53,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
   alternates: {
     canonical: '/',
