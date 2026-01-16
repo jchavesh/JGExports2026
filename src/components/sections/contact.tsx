@@ -12,13 +12,12 @@ import { useLanguage } from '@/context/LanguageContext';
 export function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
   const { t } = useLanguage();
 
   const handleSendMessage = () => {
     const whatsAppNumber = "50661330225";
-    const text = `${t.contact.whatsappMessage} ${name}.\n\n${t.contact.whatsappSubject}: ${subject}\n\n${t.contact.whatsappMessageLabel}: ${message}\n\n${t.contact.whatsappEmail}: ${email}`;
+    const text = `${t.contact.whatsappMessage} ${name}.\n\n${t.contact.whatsappMessageLabel}: ${message}\n\n${t.contact.whatsappEmail}: ${email}`;
     const encodedText = encodeURIComponent(text);
     const whatsappUrl = `https://wa.me/${whatsAppNumber}?text=${encodedText}`;
     window.open(whatsappUrl, '_blank');
@@ -74,15 +73,6 @@ export function Contact() {
                   className="bg-background h-12"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-              <div>
-                <Input 
-                  type="text" 
-                  placeholder={t.contact.subjectPlaceholder}
-                  className="bg-background h-12"
-                  value={subject}
-                  onChange={(e) => setSubject(e.target.value)}
                 />
               </div>
               <div>
