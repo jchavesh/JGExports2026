@@ -9,6 +9,7 @@ import { Grading } from '@/components/sections/grading';
 import { ExportProcess } from '@/components/sections/export-process';
 import { QaLogistics } from '@/components/sections/qa-logistics';
 import { Contact } from '@/components/sections/contact';
+import { ScrollToTopButton } from '@/components/shared/scroll-to-top';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }
