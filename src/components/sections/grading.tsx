@@ -28,7 +28,7 @@ export function Grading() {
         title: t.grading.accordionTitle2,
         content: t.grading.accordionContent2,
       },
-      {
+      { 
         value: "item-3",
         title: t.grading.accordionTitle3,
         content: t.grading.accordionContent3,

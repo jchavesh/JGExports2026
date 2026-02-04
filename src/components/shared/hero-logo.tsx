@@ -24,3 +24,4 @@ export function HeroLogo({ className, width = 1606, height = 400 }: LogoProps) {
     />
   );
 } 
+ 

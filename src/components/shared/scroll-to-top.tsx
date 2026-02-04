@@ -22,7 +22,7 @@ export function ScrollToTopButton() {
       behavior: 'smooth',
     });
   };
-
+ 
   useEffect(() => {
     window.addEventListener('scroll', toggleVisibility);
 

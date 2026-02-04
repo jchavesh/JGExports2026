@@ -25,7 +25,7 @@ export function WhatWeDo() {
           video.pause();
         }
       },
-      {
+      { 
         threshold: 0.5,
       }
     );

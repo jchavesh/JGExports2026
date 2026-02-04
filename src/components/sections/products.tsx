@@ -28,7 +28,7 @@ export function Products() {
           imageHint: "coffee beans",
           alt: "High-quality green coffee beans from Costa Rica ready for export."
       },
-      {
+      { 
           title: t.products.cacao,
           items: [
               t.products.cacaoItem1,

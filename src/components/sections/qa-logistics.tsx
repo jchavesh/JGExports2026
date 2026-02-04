@@ -25,7 +25,7 @@ export function QaLogistics() {
     t.qa.logisticsPoint2,
     t.qa.logisticsPoint3,
     t.qa.logisticsPoint4,
-  ];
+  ]; 
 
   const priorityHtml = t.qa.priority
     .replace("uniformity", "<b>uniformity</b>")

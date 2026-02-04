@@ -25,7 +25,7 @@ export function ValueProposition() {
       }
     }
   };
-
+ 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll(); // Set initial position on load

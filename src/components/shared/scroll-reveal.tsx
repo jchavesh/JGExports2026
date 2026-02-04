@@ -24,7 +24,7 @@ export function ScrollReveal({ children, className, delay = 0, threshold = 0.1 }
       },
       { threshold }
     );
-
+ 
     const currentRef = ref.current;
     if (currentRef) {
       observer.observe(currentRef);

@@ -20,7 +20,7 @@ export function Header() {
   const [isMounted, setIsMounted] = useState(false);
   const { setLanguage, t } = useLanguage();
 
-  const navLinks = [
+  const navLinks = [ 
     { href: "#about", label: t.nav.about },
     { href: "#what-we-do", label: t.nav.whatWeDo },
     { href: "#value-prop", label: t.nav.value },

@@ -22,7 +22,7 @@ export function Contact() {
     const whatsappUrl = `https://wa.me/${whatsAppNumber}?text=${encodedText}`;
     window.open(whatsappUrl, '_blank');
   };
-
+ 
   return (
     <section id="contact" className="bg-background pb-16 md:pb-24 lg:pb-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

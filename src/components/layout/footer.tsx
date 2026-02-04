@@ -25,6 +25,6 @@ export function Footer() {
             <p>{t.footer.slogan}</p>
         </div>
       </div>
-    </footer>
+    </footer> 
   );
 }
