@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Large Media files
+/public/steaming-coffee-beans-in-a-cup-with-a-warm.mp4
+/public/steaming-coffee-beans-in-a-cup-with-a-warm.mov
+/public/delicious-organic.avif
+/public/about1.jpg
+/public/about2.jpg
+/public/about3.jpg
+/public/about4.jpg
+/public/values.jpg
+/public/coffeeBeens.jpg
+/public/cacaoBens.jpg
+/public/ornamentalPlants.jpg
+/public/otherPlants.jpg
+/public/Export1.webp
+/public/Export2.webp
+/public/Export3.webp
+/public/Export4.jpg
+/public/Export5.webp
+
+# Videos pesados
+*.mov
+*.mp4
+*.avi
+# O solo esa carpeta
+*.mov
+public/*.mov
