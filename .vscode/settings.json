@@ -1,0 +1,30 @@
+{
+    "highlight.regex.workspace.regexes": [
+        {
+            "files": "\\b[^.]+\\.js$",
+            "regexes": [
+                {
+                    "regex": "(<[^>]+>)",
+                    "decorations": [
+                        {
+                            "index": 1,
+                            "color": "#ff69b4",
+                            "fontWeight": "bold"
+                        }
+                    ]
+                },
+                {
+                    "regex": "(</?topDisclaimer(?:F[123]|IC)>)",
+                    "decorations": [
+                        {
+                            "index": 1,
+                            "color": "#00FFFF",
+                            "fontWeight": "bold"
+                        }
+                    ]
+                }
+            ],
+            "active": false
+        }
+    ]
+}

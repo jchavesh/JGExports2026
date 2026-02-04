@@ -158,7 +158,7 @@ export const translations = {
         accordionContent2: "Café comercial de uso masivo para tostado a gran escala, marcas de supermercado, cápsulas y mezclas. Enfocado en volumen, consistencia y precios competitivos.",
         accordionTitle3: "Café Sub-Comercial / Fuera de Grado (86+ defectos)",
         accordionContent3: "Café para uso industrial como café instantáneo, extractos y aplicaciones alimentarias. Se vende en base a volumen y eficiencia de costos en lugar de calidad en taza.",
-      },
+      }, 
       qa: {
         title1: "CALIDAD Y CONTROL",
         point1: "Estándares de clasificación consistentes",
