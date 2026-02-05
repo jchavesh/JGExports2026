@@ -33,6 +33,12 @@ export function Grading() {
         title: t.grading.accordionTitle3,
         content: t.grading.accordionContent3,
       },
+      { 
+        value: "item-4",
+        title: t.grading.accordionTitle4,
+        content: t.grading.accordionContent4,
+      },
+
     ];
     
     const handleScroll = () => {
